@@ -1,0 +1,20 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Open Sans,sans-serif;
+    font-size: 21px;
+}
+
+@media (max-width: 1032px) {
+    body {
+        font-size: 17px;
+    }
+}
+
+a {
+    cursor: pointer;
+}
+
+p, span {
+    cursor: default;
+}

@@ -1,0 +1,15 @@
+:root {
+    --main-blue: #1a009f;
+    --main-blue1: #3113c6;
+    --main-purple: #7400ca;
+    --main-light-purple: rgb(177, 177, 189);
+    --main-light-white: rgb(255, 255, 250);
+    --black: rgb(3, 3, 2);
+    --black-transparent: rgba(0, 0, 0, 0.68);
+    --time-links: .31s;
+    --yellow: rgb(214, 224, 18);
+    --red: rgb(178, 32, 32);
+    --white-transparent: rgb(255, 255, 255, 0.75);
+    --size-header: 80px;
+    --size-footer: 60px;
+}

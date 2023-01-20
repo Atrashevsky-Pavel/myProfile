@@ -1,0 +1,46 @@
+.header {
+    position: fixed;
+    top: 0px;
+    height: var(--size-header);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to right, var(--main-blue), var(--main-purple));
+    border-bottom: 1px solid var(--main-light-purple);
+    box-sizing: border-box;
+}
+
+.header__icon {
+    display: block;
+    height: 70px;
+    margin-left: 25px;
+    padding-top: 5px;
+}
+
+.header__links {
+    color: var(--main-light-white);
+    display: flex;
+    margin-right: 25px;
+    align-items: center;
+}
+
+.header__links>a {
+    width: 55px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.header__links>a>svg path {
+    transition: var(--time-links) linear;
+}
+
+.header__links>a:hover svg path {
+    fill: var(--black);
+}
+
+.header__links>span {
+    display: block;
+    font-size: 1.3em;
+}
+
+
